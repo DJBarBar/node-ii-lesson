@@ -3,6 +3,9 @@ let bodyParser = require('body-parser');
 
 var app = express();
 
+//TOP LEVEL MIDDLEWARE
+// app.use(bodyParser.json())
+
 app.get('/api/stuff', function(req,res,next) { }, function(req, res, next){ }) //...
 
 app.get('/api/stuff', function(req,res,next) { 
